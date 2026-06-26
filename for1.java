@@ -12,8 +12,10 @@ public class Main {
 
         int x = sc.nextInt();
 
-         for (x = 1; x <=100; x = x + 2){
-         System.out.println(x);
+        for (int i = 0; i <= x; i++){
+            if ((i%2) != 0) {
+                System.out.println(i);
+            }
         }
         System.out.println("fim");
 
