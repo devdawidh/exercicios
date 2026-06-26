@@ -16,9 +16,9 @@ public class Main {
             double y = sc.nextDouble();
             double z = sc.nextDouble();
 
-            if (z == 0) {
+            if (z == 0) { //verificação
                 System.out.println("Divisão impossivel");
-            } else {
+            } else { 
                 double soma = y / z;
                 System.out.println(soma);
             }
